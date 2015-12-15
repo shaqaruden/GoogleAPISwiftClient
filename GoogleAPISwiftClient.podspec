@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = "10.9"
   s.watchos.deployment_target = "2.0"
 
-  s.source       = { :git => "https://github.com/mattwyskiel/GoogleAPISwiftClient.git", :tag => "0.3.0" }
+  s.source       = { :git => "https://github.com/shaqaruden/GoogleAPISwiftClient.git", :tag => "0.3.0" }
 
   s.framework  = "Foundation"
   s.requires_arc = true
@@ -58,4 +58,8 @@ Pod::Spec.new do |s|
     sp.dependency 'GoogleAPISwiftClient/Common'
   end
 
+  s.subspec "Gmail" do |sp|
+    sp.source_files = "GoogleClient/Gmail/*.{swift}"
+    sp.dependency 'GoogleAPISwiftClient/Common'
+  end
 end

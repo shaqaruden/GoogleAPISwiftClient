@@ -8,6 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		4F5166B8C5F0CDE1EF998A4C /* Pods_GoogleClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4B44893873A55434B4B44D0 /* Pods_GoogleClient.framework */; };
+		630AC7DF1C1FF81F0093B5B3 /* Gmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630AC7C81C1FF81F0093B5B3 /* Gmail.swift */; };
+		630AC7E01C1FF81F0093B5B3 /* GmailDraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630AC7C91C1FF81F0093B5B3 /* GmailDraft.swift */; };
+		630AC7E11C1FF81F0093B5B3 /* GmailHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630AC7CA1C1FF81F0093B5B3 /* GmailHistory.swift */; };
+		630AC7E21C1FF81F0093B5B3 /* GmailHistoryLabelAdded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630AC7CB1C1FF81F0093B5B3 /* GmailHistoryLabelAdded.swift */; };
+		630AC7E31C1FF81F0093B5B3 /* GmailHistoryLabelRemoved.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630AC7CC1C1FF81F0093B5B3 /* GmailHistoryLabelRemoved.swift */; };
+		630AC7E41C1FF81F0093B5B3 /* GmailHistoryMessageAdded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630AC7CD1C1FF81F0093B5B3 /* GmailHistoryMessageAdded.swift */; };
+		630AC7E51C1FF81F0093B5B3 /* GmailHistoryMessageDeleted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630AC7CE1C1FF81F0093B5B3 /* GmailHistoryMessageDeleted.swift */; };
+		630AC7E61C1FF81F0093B5B3 /* GmailLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630AC7CF1C1FF81F0093B5B3 /* GmailLabel.swift */; };
+		630AC7E71C1FF81F0093B5B3 /* GmailListDraftsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630AC7D01C1FF81F0093B5B3 /* GmailListDraftsResponse.swift */; };
+		630AC7E81C1FF81F0093B5B3 /* GmailListHistoryResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630AC7D11C1FF81F0093B5B3 /* GmailListHistoryResponse.swift */; };
+		630AC7E91C1FF81F0093B5B3 /* GmailListLabelsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630AC7D21C1FF81F0093B5B3 /* GmailListLabelsResponse.swift */; };
+		630AC7EA1C1FF81F0093B5B3 /* GmailListMessagesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630AC7D31C1FF81F0093B5B3 /* GmailListMessagesResponse.swift */; };
+		630AC7EB1C1FF81F0093B5B3 /* GmailListThreadsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630AC7D41C1FF81F0093B5B3 /* GmailListThreadsResponse.swift */; };
+		630AC7EC1C1FF81F0093B5B3 /* GmailMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630AC7D51C1FF81F0093B5B3 /* GmailMessage.swift */; };
+		630AC7ED1C1FF81F0093B5B3 /* GmailMessagePart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630AC7D61C1FF81F0093B5B3 /* GmailMessagePart.swift */; };
+		630AC7EE1C1FF81F0093B5B3 /* GmailMessagePartBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630AC7D71C1FF81F0093B5B3 /* GmailMessagePartBody.swift */; };
+		630AC7EF1C1FF81F0093B5B3 /* GmailMessagePartHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630AC7D81C1FF81F0093B5B3 /* GmailMessagePartHeader.swift */; };
+		630AC7F01C1FF81F0093B5B3 /* GmailModifyMessageRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630AC7D91C1FF81F0093B5B3 /* GmailModifyMessageRequest.swift */; };
+		630AC7F11C1FF81F0093B5B3 /* GmailModifyThreadRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630AC7DA1C1FF81F0093B5B3 /* GmailModifyThreadRequest.swift */; };
+		630AC7F21C1FF81F0093B5B3 /* GmailProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630AC7DB1C1FF81F0093B5B3 /* GmailProfile.swift */; };
+		630AC7F31C1FF81F0093B5B3 /* GmailThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630AC7DC1C1FF81F0093B5B3 /* GmailThread.swift */; };
+		630AC7F41C1FF81F0093B5B3 /* GmailWatchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630AC7DD1C1FF81F0093B5B3 /* GmailWatchRequest.swift */; };
+		630AC7F51C1FF81F0093B5B3 /* GmailWatchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630AC7DE1C1FF81F0093B5B3 /* GmailWatchResponse.swift */; };
 		A4076CCC1B123D4B0041450D /* GoogleObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4076CCB1B123D4B0041450D /* GoogleObject.swift */; };
 		A42E33B31BD5D3530066F807 /* Blogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42E33A31BD5D3530066F807 /* Blogger.swift */; };
 		A42E33B41BD5D3530066F807 /* BloggerBlog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42E33A41BD5D3530066F807 /* BloggerBlog.swift */; };
@@ -49,6 +72,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		630AC7C81C1FF81F0093B5B3 /* Gmail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Gmail.swift; path = Gmail/Gmail.swift; sourceTree = "<group>"; };
+		630AC7C91C1FF81F0093B5B3 /* GmailDraft.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GmailDraft.swift; path = Gmail/GmailDraft.swift; sourceTree = "<group>"; };
+		630AC7CA1C1FF81F0093B5B3 /* GmailHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GmailHistory.swift; path = Gmail/GmailHistory.swift; sourceTree = "<group>"; };
+		630AC7CB1C1FF81F0093B5B3 /* GmailHistoryLabelAdded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GmailHistoryLabelAdded.swift; path = Gmail/GmailHistoryLabelAdded.swift; sourceTree = "<group>"; };
+		630AC7CC1C1FF81F0093B5B3 /* GmailHistoryLabelRemoved.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GmailHistoryLabelRemoved.swift; path = Gmail/GmailHistoryLabelRemoved.swift; sourceTree = "<group>"; };
+		630AC7CD1C1FF81F0093B5B3 /* GmailHistoryMessageAdded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GmailHistoryMessageAdded.swift; path = Gmail/GmailHistoryMessageAdded.swift; sourceTree = "<group>"; };
+		630AC7CE1C1FF81F0093B5B3 /* GmailHistoryMessageDeleted.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GmailHistoryMessageDeleted.swift; path = Gmail/GmailHistoryMessageDeleted.swift; sourceTree = "<group>"; };
+		630AC7CF1C1FF81F0093B5B3 /* GmailLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GmailLabel.swift; path = Gmail/GmailLabel.swift; sourceTree = "<group>"; };
+		630AC7D01C1FF81F0093B5B3 /* GmailListDraftsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GmailListDraftsResponse.swift; path = Gmail/GmailListDraftsResponse.swift; sourceTree = "<group>"; };
+		630AC7D11C1FF81F0093B5B3 /* GmailListHistoryResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GmailListHistoryResponse.swift; path = Gmail/GmailListHistoryResponse.swift; sourceTree = "<group>"; };
+		630AC7D21C1FF81F0093B5B3 /* GmailListLabelsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GmailListLabelsResponse.swift; path = Gmail/GmailListLabelsResponse.swift; sourceTree = "<group>"; };
+		630AC7D31C1FF81F0093B5B3 /* GmailListMessagesResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GmailListMessagesResponse.swift; path = Gmail/GmailListMessagesResponse.swift; sourceTree = "<group>"; };
+		630AC7D41C1FF81F0093B5B3 /* GmailListThreadsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GmailListThreadsResponse.swift; path = Gmail/GmailListThreadsResponse.swift; sourceTree = "<group>"; };
+		630AC7D51C1FF81F0093B5B3 /* GmailMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GmailMessage.swift; path = Gmail/GmailMessage.swift; sourceTree = "<group>"; };
+		630AC7D61C1FF81F0093B5B3 /* GmailMessagePart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GmailMessagePart.swift; path = Gmail/GmailMessagePart.swift; sourceTree = "<group>"; };
+		630AC7D71C1FF81F0093B5B3 /* GmailMessagePartBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GmailMessagePartBody.swift; path = Gmail/GmailMessagePartBody.swift; sourceTree = "<group>"; };
+		630AC7D81C1FF81F0093B5B3 /* GmailMessagePartHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GmailMessagePartHeader.swift; path = Gmail/GmailMessagePartHeader.swift; sourceTree = "<group>"; };
+		630AC7D91C1FF81F0093B5B3 /* GmailModifyMessageRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GmailModifyMessageRequest.swift; path = Gmail/GmailModifyMessageRequest.swift; sourceTree = "<group>"; };
+		630AC7DA1C1FF81F0093B5B3 /* GmailModifyThreadRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GmailModifyThreadRequest.swift; path = Gmail/GmailModifyThreadRequest.swift; sourceTree = "<group>"; };
+		630AC7DB1C1FF81F0093B5B3 /* GmailProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GmailProfile.swift; path = Gmail/GmailProfile.swift; sourceTree = "<group>"; };
+		630AC7DC1C1FF81F0093B5B3 /* GmailThread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GmailThread.swift; path = Gmail/GmailThread.swift; sourceTree = "<group>"; };
+		630AC7DD1C1FF81F0093B5B3 /* GmailWatchRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GmailWatchRequest.swift; path = Gmail/GmailWatchRequest.swift; sourceTree = "<group>"; };
+		630AC7DE1C1FF81F0093B5B3 /* GmailWatchResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GmailWatchResponse.swift; path = Gmail/GmailWatchResponse.swift; sourceTree = "<group>"; };
 		A4076CCB1B123D4B0041450D /* GoogleObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleObject.swift; sourceTree = "<group>"; };
 		A42E33A31BD5D3530066F807 /* Blogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Blogger.swift; sourceTree = "<group>"; };
 		A42E33A41BD5D3530066F807 /* BloggerBlog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BloggerBlog.swift; sourceTree = "<group>"; };
@@ -128,6 +174,36 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		630AC7C71C1FF80E0093B5B3 /* Gmail */ = {
+			isa = PBXGroup;
+			children = (
+				630AC7C81C1FF81F0093B5B3 /* Gmail.swift */,
+				630AC7C91C1FF81F0093B5B3 /* GmailDraft.swift */,
+				630AC7CA1C1FF81F0093B5B3 /* GmailHistory.swift */,
+				630AC7CB1C1FF81F0093B5B3 /* GmailHistoryLabelAdded.swift */,
+				630AC7CC1C1FF81F0093B5B3 /* GmailHistoryLabelRemoved.swift */,
+				630AC7CD1C1FF81F0093B5B3 /* GmailHistoryMessageAdded.swift */,
+				630AC7CE1C1FF81F0093B5B3 /* GmailHistoryMessageDeleted.swift */,
+				630AC7CF1C1FF81F0093B5B3 /* GmailLabel.swift */,
+				630AC7D01C1FF81F0093B5B3 /* GmailListDraftsResponse.swift */,
+				630AC7D11C1FF81F0093B5B3 /* GmailListHistoryResponse.swift */,
+				630AC7D21C1FF81F0093B5B3 /* GmailListLabelsResponse.swift */,
+				630AC7D31C1FF81F0093B5B3 /* GmailListMessagesResponse.swift */,
+				630AC7D41C1FF81F0093B5B3 /* GmailListThreadsResponse.swift */,
+				630AC7D51C1FF81F0093B5B3 /* GmailMessage.swift */,
+				630AC7D61C1FF81F0093B5B3 /* GmailMessagePart.swift */,
+				630AC7D71C1FF81F0093B5B3 /* GmailMessagePartBody.swift */,
+				630AC7D81C1FF81F0093B5B3 /* GmailMessagePartHeader.swift */,
+				630AC7D91C1FF81F0093B5B3 /* GmailModifyMessageRequest.swift */,
+				630AC7DA1C1FF81F0093B5B3 /* GmailModifyThreadRequest.swift */,
+				630AC7DB1C1FF81F0093B5B3 /* GmailProfile.swift */,
+				630AC7DC1C1FF81F0093B5B3 /* GmailThread.swift */,
+				630AC7DD1C1FF81F0093B5B3 /* GmailWatchRequest.swift */,
+				630AC7DE1C1FF81F0093B5B3 /* GmailWatchResponse.swift */,
+			);
+			name = Gmail;
+			sourceTree = "<group>";
+		};
 		A42E33A21BD5D3530066F807 /* Blogger */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +260,7 @@
 		A4DB96A31B07FB3B00DD0950 /* GoogleClient */ = {
 			isa = PBXGroup;
 			children = (
+				630AC7C71C1FF80E0093B5B3 /* Gmail */,
 				A42E33A21BD5D3530066F807 /* Blogger */,
 				A4A4FF761B2CD6C600BA4B8B /* Discovery */,
 				A4DB96A61B07FB3B00DD0950 /* GoogleClient.h */,
@@ -363,27 +440,50 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				630AC7E81C1FF81F0093B5B3 /* GmailListHistoryResponse.swift in Sources */,
 				A42E33B31BD5D3530066F807 /* Blogger.swift in Sources */,
 				A42E33B71BD5D3530066F807 /* BloggerBlogUserInfo.swift in Sources */,
 				A42E33C01BD5D3530066F807 /* BloggerPostUserInfo.swift in Sources */,
 				A42E33B81BD5D3530066F807 /* BloggerComment.swift in Sources */,
+				630AC7EB1C1FF81F0093B5B3 /* GmailListThreadsResponse.swift in Sources */,
+				630AC7F21C1FF81F0093B5B3 /* GmailProfile.swift in Sources */,
+				630AC7F31C1FF81F0093B5B3 /* GmailThread.swift in Sources */,
+				630AC7E41C1FF81F0093B5B3 /* GmailHistoryMessageAdded.swift in Sources */,
 				A4A4FF781B2CD6FF00BA4B8B /* Discovery.swift in Sources */,
 				A42E33BD1BD5D3530066F807 /* BloggerPost.swift in Sources */,
 				A4B3F6571C14119900DB8153 /* JSONStringConvertible.swift in Sources */,
+				630AC7E11C1FF81F0093B5B3 /* GmailHistory.swift in Sources */,
 				A42E33C21BD5D3530066F807 /* BloggerUser.swift in Sources */,
+				630AC7E31C1FF81F0093B5B3 /* GmailHistoryLabelRemoved.swift in Sources */,
 				A42E33B51BD5D3530066F807 /* BloggerBlogList.swift in Sources */,
 				A42E33C11BD5D3530066F807 /* BloggerPostUserInfosList.swift in Sources */,
+				630AC7E91C1FF81F0093B5B3 /* GmailListLabelsResponse.swift in Sources */,
+				630AC7F11C1FF81F0093B5B3 /* GmailModifyThreadRequest.swift in Sources */,
 				A46810381B0AC4E0006F7839 /* GoogleService.swift in Sources */,
+				630AC7F51C1FF81F0093B5B3 /* GmailWatchResponse.swift in Sources */,
+				630AC7F41C1FF81F0093B5B3 /* GmailWatchRequest.swift in Sources */,
 				A42E33BA1BD5D3530066F807 /* BloggerPage.swift in Sources */,
+				630AC7E71C1FF81F0093B5B3 /* GmailListDraftsResponse.swift in Sources */,
+				630AC7E21C1FF81F0093B5B3 /* GmailHistoryLabelAdded.swift in Sources */,
 				A42E33BB1BD5D3530066F807 /* BloggerPageList.swift in Sources */,
 				A42E33B41BD5D3530066F807 /* BloggerBlog.swift in Sources */,
 				A42E33B61BD5D3530066F807 /* BloggerBlogPerUserInfo.swift in Sources */,
+				630AC7EF1C1FF81F0093B5B3 /* GmailMessagePartHeader.swift in Sources */,
 				A42E33B91BD5D3530066F807 /* BloggerCommentList.swift in Sources */,
+				630AC7EC1C1FF81F0093B5B3 /* GmailMessage.swift in Sources */,
+				630AC7ED1C1FF81F0093B5B3 /* GmailMessagePart.swift in Sources */,
 				A4076CCC1B123D4B0041450D /* GoogleObject.swift in Sources */,
 				A4A4FF7A1B2CD80D00BA4B8B /* DiscoveryRestDescription.swift in Sources */,
 				A4A4FF7C1B2CFDB900BA4B8B /* DiscoveryDirectoryList.swift in Sources */,
+				630AC7EE1C1FF81F0093B5B3 /* GmailMessagePartBody.swift in Sources */,
+				630AC7E61C1FF81F0093B5B3 /* GmailLabel.swift in Sources */,
 				A42E33BC1BD5D3530066F807 /* BloggerPageviews.swift in Sources */,
+				630AC7DF1C1FF81F0093B5B3 /* Gmail.swift in Sources */,
+				630AC7F01C1FF81F0093B5B3 /* GmailModifyMessageRequest.swift in Sources */,
+				630AC7E51C1FF81F0093B5B3 /* GmailHistoryMessageDeleted.swift in Sources */,
 				A42E33BE1BD5D3530066F807 /* BloggerPostList.swift in Sources */,
+				630AC7EA1C1FF81F0093B5B3 /* GmailListMessagesResponse.swift in Sources */,
+				630AC7E01C1FF81F0093B5B3 /* GmailDraft.swift in Sources */,
 				A42E33BF1BD5D3530066F807 /* BloggerPostPerUserInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
